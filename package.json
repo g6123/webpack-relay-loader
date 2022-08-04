@@ -1,0 +1,29 @@
+{
+  "name": "webpack-relay-loader",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^16",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "graphql": "^16.5.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0"
+  },
+  "peerDependencies": {
+    "graphql": "*",
+    "webpack": "^5"
+  },
+  "packageManager": "yarn@3.2.2"
+}
